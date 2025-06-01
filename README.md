@@ -6,7 +6,7 @@ Este projeto é a entrega da **AD3 - Programação Web - IFC**.
 
 ## ✅ Estrutura do Projeto
 
-
+```
 curso-backend-frontend-web/
 ├── curso-backend/
 │   ├── index.js
@@ -22,7 +22,7 @@ curso-backend-frontend-web/
 │   ├── styles.css
 │   └── Logo\_IFC\_horizontal.png
 └── README.md
-
+```
 ## ✅ Como rodar o projeto
 
 ### ▶️ Backend
