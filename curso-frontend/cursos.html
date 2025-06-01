@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro de Cursos</title>
+</head>
+<body>
+    <header>
+        <img src="Logo_IFC_horizontal.png" alt="Instituto Federal Catarinense" class="logo">
+        <h1>Cadastro de Cursos</h1>
+    </header>
+    
+    <main>
+        <button id="addCurso">Adicionar Curso</button>
+        <table id="cursosTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sigla</th>
+                    <th>Descrição</th>
+                    <th>Coordenador</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cursos serão inseridos aqui via JavaScript -->
+            </tbody>
+        </table>
+    </main>
+
+    <!-- Modal para Adicionar/Editar Curso -->
+    <div id="cursoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Adicionar/Editar Curso</h2>
+            <form id="cursoForm">
+                <input type="hidden" id="id" name="id">
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="sigla">Sigla:</label>
+                <input type="text" id="sigla" name="sigla" required>
+                
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" required></textarea>
+                
+                <label for="coordenador">Coordenador:</label>
+                <input type="text" id="coordenador" name="coordenador" required>
+                
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="cursos.js"></script>
+</body>
+</html>
