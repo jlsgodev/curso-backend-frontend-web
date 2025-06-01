@@ -101,7 +101,7 @@ xdg-open cursos.html
 
 ## ✅ Autor
 
-**jlsgodev**
+**Jhon Gonçalves**
 GitHub: [https://github.com/jlsgodev](https://github.com/jlsgodev)
 
 ---
